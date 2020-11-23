@@ -19,9 +19,9 @@ app.get("/", (request, response) => {
     main(); // Subsequent call
     response.sendStatus(200);
 });
-app.listen(process.env.PORT);
+app.listen(process.env.PORT || 8000);
 setInterval(() => {
-    http.get(`http://${process.env.HEROKU_APP_NAME}.herokuapp.com/`);
+    http.get(process.env.url);
 }, 60000);
 
 // Initialize the bot
@@ -33,7 +33,7 @@ client.on("ready", async () => {
 client.login(process.env.botToken);
 
 console.log("App restarted");
-console.log(`http://${process.env.HEROKU_APP_NAME}.herokuapp.com/`);
+console.log(process.env.url);
 
 // Parse a JSON data file
 let shardData = JSON.parse(fs.readFileSync("./shard-data.json", "utf8"));
