@@ -21,7 +21,7 @@ app.get("/", (request, response) => {
 });
 app.listen(process.env.PORT);
 setInterval(() => {
-    http.get(`http://${process.env.PROJECT_DOMAIN}.glitch.me/`);
+    http.get(`http://${process.env.HEROKU_APP_NAME}.herokuapp.com/`);
 }, 60000);
 
 // Initialize the bot
@@ -33,6 +33,7 @@ client.on("ready", async () => {
 client.login(process.env.botToken);
 
 console.log("App restarted");
+console.log(`http://${process.env.HEROKU_APP_NAME}.herokuapp.com/`);
 
 // Parse a JSON data file
 let shardData = JSON.parse(fs.readFileSync("./shard-data.json", "utf8"));
