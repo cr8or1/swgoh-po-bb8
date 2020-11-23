@@ -22,7 +22,7 @@ app.get("/", (request, response) => {
 app.listen(process.env.PORT || 8000);
 setInterval(() => {
     http.get(process.env.url);
-}, 60000);
+}, 600000);
 
 // Initialize the bot
 client.on("ready", async () => {
