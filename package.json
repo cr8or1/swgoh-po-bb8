@@ -1,0 +1,22 @@
+{
+  "name": "swgoh-po-fleet-bb8",
+  "version": "1.0.0",
+  "description": "Automatically updating SWGOH payout bot for Discord",
+  "main": "node bot.js",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "express": "^4.16.3"
+  },
+  "engines": {
+    "node": "8.6.0"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/payout-countdown"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
