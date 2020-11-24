@@ -15,8 +15,8 @@ var messageShard;
 var messagePest;
 
 // Parse a JSON data file
-const matesShardData = parseData(JSON.parse(fs.readFileSync("./po-shard-data.json", "utf8")));
-const matesPestData = parseData(JSON.parse(fs.readFileSync("./po-pest-data.json", "utf8")));
+const matesShardData = parseData(JSON.parse(fs.readFileSync(process.env.shardMemberURL, "utf8")));
+const matesPestData = parseData(JSON.parse(fs.readFileSync(process.env.shardPestURL, "utf8")));
 
 // Keeping the project "alive"
 app.get("/", (request, response) => {
@@ -27,7 +27,7 @@ app.get("/", (request, response) => {
 app.listen(process.env.PORT || 8000);
 setInterval(() => {
     http.get(process.env.url);
-}, 300000);
+}, process.env.timePeriod);
 
 // Initialize the bot
 client.on("ready", async () => {

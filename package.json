@@ -4,8 +4,8 @@
   "description": "Automatically updating SWGOH payout bot for Discord",
   "main": "node bot.js",
   "dependencies": {
-    "discord.js": "^11.3.2",
-    "express": "^4.16.3"
+    "discord.js": "^11.6.4",
+    "express": "^4.17.1"
   },
   "engines": {
     "node": "8.6.0"
