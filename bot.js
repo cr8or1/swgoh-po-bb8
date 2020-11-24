@@ -15,8 +15,8 @@ var messageShard;
 var messagePest;
 
 // Parse a JSON data file
-const matesShardData = parseData(JSON.parse(fs.readFileSync(process.env.shardMemberURL, "utf8")));
-const matesPestData = parseData(JSON.parse(fs.readFileSync(process.env.shardPestURL, "utf8")));
+const matesShardData = parseData(JSON.parse(fs.readFileSync("./po-shard-data.json", "utf8")));
+const matesPestData = parseData(JSON.parse(fs.readFileSync("./po-pest-data.json", "utf8")));
 
 // Keeping the project "alive"
 app.get("/", (request, response) => {
