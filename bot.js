@@ -7,99 +7,115 @@ const fs = require("fs");
 const app = express();
 const client = new Discord.Client();
 
-const prefix = "!";
+// Channel discord id 1 (squad arena)
 
-var writeChannel;
-var message;
-var mates = [];
+var writeChannelShard;
+var writeChannelPest;
+var messageShard;
+var messagePest;
+
+// Parse a JSON data file
+const matesShardData = parseData(JSON.parse(fs.readFileSync("./po-shard-data.json", "utf8")));
+const matesPestData = parseData(JSON.parse(fs.readFileSync("./po-pest-data.json", "utf8")));
 
 // Keeping the project "alive"
 app.get("/", (request, response) => {
-    console.log(Date.now() + " Ping Received");
-    main(); // Subsequent call
+    console.log(new Date().toISOString().replace("T", " ").substring(0, 19) + " Ping Received");
+    main().catch(ex => console.error(ex.message));
     response.sendStatus(200);
 });
 app.listen(process.env.PORT || 8000);
 setInterval(() => {
     http.get(process.env.url);
-}, 60000);
+}, 300000);
 
 // Initialize the bot
 client.on("ready", async () => {
     client.user.setPresence({game: {name: "live payout countdowns", type: 0}});
-    writeChannel = client.channels.get(process.env.writeChannelId);
-    initializeMessageObject();
-})
+    writeChannelShard = client.channels.get(process.env.channelIdShard);
+    writeChannelPest = client.channels.get(process.env.channelIdPest);
+
+    // Initial call
+    await main();
+});
 client.login(process.env.botToken);
 
 console.log("App restarted");
 console.log(process.env.url);
 
-// Parse a JSON data file
-let shardData = JSON.parse(fs.readFileSync("./shard-data.json", "utf8"));
-parseData();
+async function main() {
+    if (!messageShard) {
+        messageShard = await initializeMessageObject(writeChannelShard);
+    }
+    if (!messagePest) {
+        messagePest = await initializeMessageObject(writeChannelPest);
+    }
 
-// Initial call
-main();
+    if (messageShard) {
+        await sendToChannel(matesShardData, writeChannelShard, messageShard);
+    } else {
+        console.error("Shard message object not initialized");
+    }
 
+    if (messagePest) {
+        await sendToChannel(matesPestData, writeChannelPest, messagePest);
+    } else {
+        console.error("Pest message object not initialized");
+    }
+}
 
 // Below are the rest of the functions that make up the bot
-async function main () {
+async function sendToChannel(mates, writeChannel, message) {
     try {
-        console.log("Try");
-        if (message) {
-            calculateSecondsUntilPayout();
-            await sendMessage();
-        } else if (writeChannel) {
-            initializeMessageObject();
+        calculateSecondsUntilPayout(mates);
+        await sendMessage(mates, message);
+    } catch (err) {
+        console.log(err);
+    }
+}
+
+async function initializeMessageObject(writeChannel) {
+    // fetch message, create a new one if necessary
+    console.log('Start initializing message object');
+    try {
+        const messages = await writeChannel.fetchMessages();
+
+        if (messages.array().length === 0) {
+            return await writeChannel.send({embed: new Discord.RichEmbed()});
         } else {
-            console.log("Something is wrong");
+            if (messages.first().embeds.length === 0) {
+                await messages.first().delete();
+                return await writeChannel.send({embed: new Discord.RichEmbed()});
+            } else {
+                return messages.first();
+            }
         }
     } catch (err) {
         console.log(err);
-        initializeMessageObject();
+        return undefined;
     } finally {
-        //  setTimeout(main, 60000 - Date.now() % 60000);
-        console.log('Try finally');
+        console.log('Finished initializing message object');
     }
 }
 
-async function initializeMessageObject () {
-    // fetch message, create a new one if necessary
-    console.log('Start initializing message object');
-    const messages = await writeChannel.fetchMessages();
-    if (messages.array().length === 0) {
-        try {
-            message = await writeChannel.send({embed: new Discord.RichEmbed()});
-        } catch (err) {
-            console.log(err);
-        }
-    } else {
-        if (messages.first().embeds.length === 0) {
-            await messages.first().delete();
-            message = await writeChannel.send({embed: new Discord.RichEmbed()});
-        } else {
-            message = messages.first();
-        }
-    }
-    console.log('Message object initialized');
-}
+function parseData(shardData) {
+    const mates = [];
 
-function parseData () {
     for (let i in shardData) {
         const user = shardData[i];
         mates.push({
             name: user.Name,
-            payout: parseInt(user.UTC.substr(0,2) + user.UTC.substr(-2,user.UTC.length)),
+            payout: parseInt(user.UTC.substr(0, 2) + user.UTC.substr(-2, user.UTC.length)),
             po: {
-                hours: parseInt(user.UTC.substr(0,2)),
-                minutes: parseInt(user.UTC.substr(-2,user.UTC.length))
+                hours: parseInt(user.UTC.substr(0, 2)),
+                minutes: parseInt(user.UTC.substr(-2, user.UTC.length))
             },
             flag: user.Flag,
             swgoh: user.SWGOH,
             utc: user.UTC
         });
     }
+
     const matesByTime = {};
     for (let i in mates) {
         const mate = mates[i];
@@ -112,10 +128,10 @@ function parseData () {
         }
         matesByTime[mate.payout].mates.push(mate);
     }
-    mates = Object.values(matesByTime);
+    return Object.values(matesByTime);
 }
 
-function calculateSecondsUntilPayout () {
+function calculateSecondsUntilPayout(mates) {
     const now = new Date();
     for (let i in mates) {
         const mate = mates[i];
@@ -132,13 +148,14 @@ function calculateSecondsUntilPayout () {
         }
         mate.time = `${String(dif.getUTCHours()).padStart(2, '00')}:${String(dif.getUTCMinutes()).padStart(2, '00')}`;
     }
+
     mates.sort((a, b) => {
         return a.timeUntilPayout - b.timeUntilPayout;
     })
 }
 
-async function sendMessage () {
-    let embed = new Discord.RichEmbed().setThumbnail('https://i.imgur.com/HnvhVHX.png');
+async function sendMessage(mates, message) {
+    let embed = new Discord.RichEmbed().setThumbnail(process.env.thumbnail);
     let desc = '**Time until next payout**:';
     for (let i in mates) {
         let fieldName = "\n" + "------------------" + "\n" + "PO in " + String(mates[i].time) + " - (UTC " + String(mates[i].po.hours).padStart(2, '00') + ":" + String(mates[i].po.minutes).padStart(2, '00') + "):";
@@ -149,7 +166,7 @@ async function sendMessage () {
         embed.addField(fieldName, fieldText, true);
     }
     embed.setDescription(desc);
-    embed.setFooter('Last refresh', 'https://i.imgur.com/HnvhVHX.png');
+    embed.setFooter('Last refresh', process.env.thumbnail);
     embed.setTimestamp();
     await message.edit({embed});
     console.log('Message send');
