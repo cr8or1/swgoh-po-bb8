@@ -32,8 +32,8 @@ setInterval(() => {
 // Initialize the bot
 client.on("ready", async () => {
     client.user.setPresence({game: {name: "live payout countdowns", type: 0}});
-    writeChannelShard = client.channels.get(process.env.channelIdShard);
-    writeChannelPest = client.channels.get(process.env.channelIdPest);
+    writeChannelShard = await client.channels.fetch(process.env.channelIdShard);
+    writeChannelPest = await client.channels.fetch(process.env.channelIdPest);
 
     // Initial call
     await main();
@@ -78,14 +78,14 @@ async function initializeMessageObject(writeChannel) {
     // fetch message, create a new one if necessary
     console.log('Start initializing message object');
     try {
-        const messages = await writeChannel.fetchMessages();
+        const messages = await writeChannel.messages.fetch();
 
         if (messages.array().length === 0) {
-            return await writeChannel.send({embed: new Discord.RichEmbed()});
+            return await writeChannel.send({embed: new Discord.MessageEmbed()});
         } else {
             if (messages.first().embeds.length === 0) {
                 await messages.first().delete();
-                return await writeChannel.send({embed: new Discord.RichEmbed()});
+                return await writeChannel.send({embed: new Discord.MessageEmbed()});
             } else {
                 return messages.first();
             }
@@ -155,7 +155,7 @@ function calculateSecondsUntilPayout(mates) {
 }
 
 async function sendMessage(mates, message) {
-    let embed = new Discord.RichEmbed().setThumbnail(process.env.thumbnail);
+    let embed = new Discord.MessageEmbed().setThumbnail(process.env.thumbnail);
     let desc = '**Time until next payout**:';
     for (let i in mates) {
         let fieldName = "\n" + "------------------" + "\n" + "PO in " + String(mates[i].time) + " - (UTC " + String(mates[i].po.hours).padStart(2, '00') + ":" + String(mates[i].po.minutes).padStart(2, '00') + "):";
