@@ -32,8 +32,10 @@ setInterval(() => {
 // Initialize the bot
 client.on("ready", async () => {
     client.user.setPresence({game: {name: "live payout countdowns", type: 0}});
-    writeChannelShard = await client.channels.fetch(process.env.channelIdShard);
-    writeChannelPest = await client.channels.fetch(process.env.channelIdPest);
+    writeChannelSquadShard = await client.channels.fetch(process.env.channelIdSquadShard);
+    writeChannelFleetShard = await client.channels.fetch(process.env.channelIdFleetShard);
+    writeChannelSquadPest = await client.channels.fetch(process.env.channelIdSquadPest);
+    writeChannelFleetPest = await client.channels.fetch(process.env.channelIdFleetPest);
 
     // Initial call
     await main();
@@ -44,21 +46,39 @@ console.log("App restarted");
 console.log(process.env.url);
 
 async function main() {
-    if (!messageShard) {
-        messageShard = await initializeMessageObject(writeChannelShard);
+    if (!messageSquadShard) {
+        messageSquadShard = await initializeMessageObject(writeChannelSquadShard);
     }
-    if (!messagePest) {
-        messagePest = await initializeMessageObject(writeChannelPest);
+    if (!messageFleetShard) {
+        messageFleetShard = await initializeMessageObject(writeChannelFleetShard);
+    }
+    if (!messageSquadPest) {
+        messageSquadPest = await initializeMessageObject(writeChannelSquadPest);
+    }
+    if (!messageFleetPest) {
+        messageFleetPest = await initializeMessageObject(writeChannelFleetPest);
     }
 
-    if (messageShard) {
-        await sendToChannel(matesShardData, writeChannelShard, messageShard);
+    if (messageSquadShard) {
+        await sendToChannel(matesShardData, writeChannelSquadShard, messageSquadShard);
     } else {
         console.error("Shard message object not initialized");
     }
 
-    if (messagePest) {
-        await sendToChannel(matesPestData, writeChannelPest, messagePest);
+    if (messageFleetShard) {
+        await sendToChannel(matesFleetShardData, writeChannelFleetShard, messageFleetShard);
+    } else {
+        console.error("Shard message object not initialized");
+    }
+
+    if (messageSquadPest) {
+        await sendToChannel(matesSquadPestData, writeChannelSquadPest, messageSquadPest);
+    } else {
+        console.error("Pest message object not initialized");
+    }
+
+    if (messageFleetPest) {
+        await sendToChannel(matesFleetPestData, writeChannelFleetPest, messageFleetPest);
     } else {
         console.error("Pest message object not initialized");
     }
