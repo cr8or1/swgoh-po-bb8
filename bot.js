@@ -9,14 +9,20 @@ const client = new Discord.Client();
 
 // Channel discord id 1 (squad arena)
 
-var writeChannelShard;
-var writeChannelPest;
-var messageShard;
-var messagePest;
+var writeChannelSquadShard;
+var writeChannelFleetShard;
+var writeChannelSquadPest;
+var writeChannelFleetPest;
+var messageSquadShard;
+var messageFleetShard;
+var messageSquadPest;
+var messageFleetPest;
 
 // Parse a JSON data file
-const matesShardData = parseData(JSON.parse(fs.readFileSync("./po-shard-data.json", "utf8")));
-const matesPestData = parseData(JSON.parse(fs.readFileSync("./po-pest-data.json", "utf8")));
+const matesSquadShardData = parseData(JSON.parse(fs.readFileSync("./po-squad-shard-data.json", "utf8")));
+const matesFleetShardData = parseData(JSON.parse(fs.readFileSync("./po-fleet-shard-data.json", "utf8")));
+const matesSquadPestData = parseData(JSON.parse(fs.readFileSync("./po-squad-pest-data.json", "utf8")));
+const matesFleetPestData = parseData(JSON.parse(fs.readFileSync("./po-fleet-pest-data.json", "utf8")));
 
 // Keeping the project "alive"
 app.get("/", (request, response) => {
@@ -60,7 +66,7 @@ async function main() {
     }
 
     if (messageSquadShard) {
-        await sendToChannel(matesShardData, writeChannelSquadShard, messageSquadShard);
+        await sendToChannel(matesSquadShardData, writeChannelSquadShard, messageSquadShard);
     } else {
         console.error("Shard message object not initialized");
     }
