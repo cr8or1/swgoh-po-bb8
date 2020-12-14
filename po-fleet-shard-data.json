@@ -1,11 +1,5 @@
 [
   {
-    "Name": "RoadhouseRN",
-    "Flag": ":flag_us:",
-    "SWGOH": "<https://swgoh.gg/p/683949831/>",
-    "UTC": "00:00"
-  },
-  {
     "Name": "Bacterio",
     "Flag": ":flag_eu:",
     "SWGOH": "<https://swgoh.gg/p/139682535/>",
@@ -45,18 +39,6 @@
     "Name": "Casseus Amell",
     "Flag": ":flag_us:",
     "SWGOH": "<https://swgoh.gg/p/714317725/>",
-    "UTC": "04:00"
-  },
-  {
-    "Name": "Pyxe [rob]",
-    "Flag": ":flag_us:",
-    "SWGOH": "<https://swgoh.gg/p/461353227/>",
-    "UTC": "04:00"
-  },
-  {
-    "Name": "Greystock",
-    "Flag": ":flag_gp:",
-    "SWGOH": "<https://swgoh.gg/p/256587674/>",
     "UTC": "04:00"
   },
   {
@@ -150,21 +132,9 @@
     "UTC": "17:00"
   },
   {
-    "Name": "Al Svagone",
-    "Flag": ":flag_hr:",
-    "SWGOH": "<https://swgoh.gg/p/873724676/>",
-    "UTC": "17:00"
-  },
-  {
     "Name": "Kliment B",
     "Flag": ":flag_mk:",
     "SWGOH": "<https://swgoh.gg/p/917816977/>",
-    "UTC": "18:00"
-  },
-  {
-    "Name": "BanjoRune",
-    "Flag": ":flag_no:",
-    "SWGOH": "<https://swgoh.gg/p/358636633/>",
     "UTC": "18:00"
   },
   {
@@ -180,27 +150,9 @@
     "UTC": "21:00"
   },
   {
-    "Name": "Zigmeister",
-    "Flag": ":flag_br:",
-    "SWGOH": "<https://swgoh.gg/p/989354476/>",
-    "UTC": "22:00"
-  },
-  {
     "Name": "YendorRellim",
     "Flag": ":flag_us:",
     "SWGOH": "<https://swgoh.gg/p/474749823/>",
-    "UTC": "23:00"
-  },
-  {
-    "Name": "Soupboy",
-    "Flag": ":flag_us:",
-    "SWGOH": "<https://swgoh.gg/p/266534225/>",
-    "UTC": "23:00"
-  },
-  {
-    "Name": "CarpeVinum",
-    "Flag": ":flag_us:",
-    "SWGOH": "<https://swgoh.gg/p/181645612/>",
     "UTC": "23:00"
   },
   {
