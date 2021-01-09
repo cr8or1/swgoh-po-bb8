@@ -1,5 +1,11 @@
 [
   {
+    "Name": "RoadhouseRN",
+    "Flag": ":flag_us:",
+    "SWGOH": "<https://swgoh.gg/p/683949831/>",
+    "UTC": "00:00"
+  },
+  {
     "Name": "Bacterio",
     "Flag": ":flag_eu:",
     "SWGOH": "<https://swgoh.gg/p/139682535/>",
@@ -171,6 +177,12 @@
     "Name": "Dan Lambskin",
     "Flag": ":flag_us:",
     "SWGOH": "<https://swgoh.gg/p/739383161/>",
+    "UTC": "23:00"
+  },
+  {
+    "Name": "YendorRellim",
+    "Flag": ":flag_us:",
+    "SWGOH": "<https://swgoh.gg/p/474749823/>",
     "UTC": "23:00"
   },
   {
