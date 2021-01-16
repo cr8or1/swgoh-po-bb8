@@ -18,12 +18,6 @@
     "UTC": "01:00"
   },
   {
-    "Name": "AleArias",
-    "Flag": ":poop:",
-    "SWGOH": "<https://swgoh.gg/p/477893212/>",
-    "UTC": "04:00"
-  },
-  {
     "Name": "Wsummerspring",
     "Flag": ":poop:",
     "SWGOH": "<https://swgoh.gg/p/594122685/>",
@@ -118,6 +112,12 @@
     "Flag": ":poop:",
     "SWGOH": "<https://swgoh.gg/p/761582717/>",
     "UTC": "16:00"
+  },
+  {
+    "Name": "AleArias",
+    "Flag": ":poop:",
+    "SWGOH": "<https://swgoh.gg/p/477893212/>",
+    "UTC": "17:00"
   },
   {
     "Name": "Kagan",

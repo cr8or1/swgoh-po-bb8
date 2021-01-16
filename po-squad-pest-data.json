@@ -42,9 +42,27 @@
     "UTC": "12:00"
   },
   {
+    "Name": "Kadeorade",
+    "Flag": ":poop:",
+    "SWGOH": "<https://swgoh.gg/p/451424817/>",
+    "UTC": "12:00"
+  },
+  {
+    "Name": "Little Green Friend",
+    "Flag": ":flag_ar:",
+    "SWGOH": "<https://swgoh.gg/p/176132811/>",
+    "UTC": "22:00"
+  },
+  {
     "Name": "Reaven",
     "Flag": ":poop:",
     "SWGOH": "<https://swgoh.gg/p/746154778/>",
+    "UTC": "14:00"
+  },
+  {
+    "Name": "Griha",
+    "Flag": ":poop:",
+    "SWGOH": "<https://swgoh.gg/p/965256676/>",
     "UTC": "14:00"
   },
   {
@@ -87,6 +105,12 @@
     "Name": "Delirium",
     "Flag": ":poop:",
     "SWGOH": "<https://swgoh.gg/p/294396347/>",
+    "UTC": "16:00"
+  },
+  {
+    "Name": "Revixus",
+    "Flag": ":poop:",
+    "SWGOH": "<https://swgoh.gg/p/571928153/>",
     "UTC": "16:00"
   },
   {
