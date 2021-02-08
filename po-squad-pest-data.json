@@ -42,12 +42,6 @@
     "UTC": "12:00"
   },
   {
-    "Name": "Little Green Friend",
-    "Flag": ":flag_ar:",
-    "SWGOH": "<https://swgoh.gg/p/176132811/>",
-    "UTC": "22:00"
-  },
-  {
     "Name": "Reaven",
     "Flag": ":poop:",
     "SWGOH": "<https://swgoh.gg/p/746154778/>",
@@ -117,6 +111,12 @@
     "Name": "Stormnox",
     "Flag": ":poop:",
     "SWGOH": "<https://swgoh.gg/p/668532174/>",
+    "UTC": "17:00"
+  },
+  {
+    "Name": "Filius fla",
+    "Flag": ":poop:",
+    "SWGOH": "<https://swgoh.gg/p/734527288/>",
     "UTC": "17:00"
   },
   {
@@ -196,6 +196,12 @@
     "Flag": ":poop:",
     "SWGOH": "<https://swgoh.gg/p/848715439/>",
     "UTC": "21:00"
+  },
+  {
+    "Name": "Little Green Friend",
+    "Flag": ":flag_ar:",
+    "SWGOH": "<https://swgoh.gg/p/176132811/>",
+    "UTC": "22:00"
   },
   {
     "Name": "Kelvin Franco",
