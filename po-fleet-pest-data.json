@@ -156,24 +156,6 @@
     "UTC": "16:00"
   },
   {
-    "Name": "Torbayn",
-    "Flag": ":poop:",
-    "SWGOH": "<https://swgoh.gg/p/177896731/>",
-    "UTC": "17:00"
-  },
-  {
-    "Name": "AleArias",
-    "Flag": ":poop:",
-    "SWGOH": "<https://swgoh.gg/p/477893212/>",
-    "UTC": "18:00"
-  },
-  {
-    "Name": "Kagan",
-    "Flag": ":poop:",
-    "SWGOH": "<https://swgoh.gg/p/719666592/>",
-    "UTC": "13:00"
-  },
-  {
     "Name": "Kobe",
     "Flag": ":poop:",
     "SWGOH": "<https://swgoh.gg/p/972144911/>",
@@ -208,6 +190,18 @@
     "Flag": ":poop:",
     "SWGOH": "<https://swgoh.gg/p/158795962/>",
     "UTC": "17:00"
+  },
+  {
+    "Name": "Torbayn",
+    "Flag": ":poop:",
+    "SWGOH": "<https://swgoh.gg/p/177896731/>",
+    "UTC": "18:00"
+  },
+  {
+    "Name": "AleArias",
+    "Flag": ":poop:",
+    "SWGOH": "<https://swgoh.gg/p/477893212/>",
+    "UTC": "18:00"
   },
   {
     "Name": "Taz",
