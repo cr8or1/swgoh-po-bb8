@@ -18,6 +18,12 @@
     "UTC": "01:00"
   },
   {
+    "Name": "Sceptile",
+    "Flag": ":flag_cl:",
+    "SWGOH": "<https://swgoh.gg/p/265498841/>",
+    "UTC": "01:00"
+  },
+  {
     "Name": "Fenrir",
     "Flag": ":flag_us:",
     "SWGOH": "<https://swgoh.gg/p/227994264/>",
@@ -30,12 +36,6 @@
     "UTC": "02:00"
   },
   {
-    "Name": "Sceptile",
-    "Flag": ":flag_cl:",
-    "SWGOH": "<https://swgoh.gg/p/265498841/>",
-    "UTC": "03:00"
-  },
-  {
     "Name": "Nikki Dial",
     "Flag": ":flag_us:",
     "SWGOH": "<https://swgoh.gg/p/535357851/>",
@@ -45,7 +45,7 @@
     "Name": "Motdrahcir",
     "Flag": ":flag_us:",
     "SWGOH": "<https://swgoh.gg/p/186597995/>",
-    "UTC": "04:00"
+    "UTC": "04:30"
   },
   {
     "Name": "Casseus Amell",
