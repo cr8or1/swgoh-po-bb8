@@ -6,12 +6,6 @@
     "UTC": "00:00"
   },
   {
-    "Name": "Bacterio",
-    "Flag": ":flag_eu:",
-    "SWGOH": "<https://swgoh.gg/p/139682535/>",
-    "UTC": "00:00"
-  },
-  {
     "Name": "Swagness Everdeen",
     "Flag": ":flag_gb:",
     "SWGOH": "<https://swgoh.gg/p/554421543/>",
@@ -21,6 +15,12 @@
     "Name": "Sceptile",
     "Flag": ":flag_cl:",
     "SWGOH": "<https://swgoh.gg/p/265498841/>",
+    "UTC": "01:00"
+  },
+  {
+    "Name": "Sion",
+    "Flag": ":flag_us:",
+    "SWGOH": "<https://swgoh.gg/p/369454526/>",
     "UTC": "01:00"
   },
   {
@@ -150,10 +150,16 @@
     "UTC": "18:00"
   },
   {
+    "Name": "AleArias",
+    "Flag": ":flag_cr:",
+    "SWGOH": "<https://swgoh.gg/p/477893212/>",
+    "UTC": "18:00"
+  },
+  {
     "Name": "Torbayn",
     "Flag": ":flag_de:",
     "SWGOH": "<https://swgoh.gg/p/177896731/>",
-    "UTC": "18:00"
+    "UTC": "19:00"
   },
   {
     "Name": "LordStarkiller",
@@ -189,6 +195,12 @@
     "Name": "YendorRellim",
     "Flag": ":flag_us:",
     "SWGOH": "<https://swgoh.gg/p/474749823/>",
+    "UTC": "23:00"
+  },
+  {
+    "Name": "Bacterio",
+    "Flag": ":flag_eu:",
+    "SWGOH": "<https://swgoh.gg/p/139682535/>",
     "UTC": "23:00"
   },
   {
