@@ -48,6 +48,12 @@
     "UTC": "04:00"
   },
   {
+    "Name": "static",
+    "Flag": ":flag_us:",
+    "SWGOH": "<https://swgoh.gg/p/379278527/>",
+    "UTC": "04:00"
+  },
+  {
     "Name": "Sion",
     "Flag": ":flag_us:",
     "SWGOH": "<https://swgoh.gg/p/369454526/>",
@@ -82,12 +88,6 @@
     "Flag": ":flag_ru:",
     "SWGOH": "<https://swgoh.gg/p/791749373/>",
     "UTC": "11:00"
-  },
-  {
-    "Name": "misafirterligi",
-    "Flag": ":flag_tr:",
-    "SWGOH": "<https://swgoh.gg/p/379278527/>",
-    "UTC": "12:00"
   },
   {
     "Name": "Creator",
