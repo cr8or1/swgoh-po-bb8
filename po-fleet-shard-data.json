@@ -36,12 +36,6 @@
     "UTC": "03:00"
   },
   {
-    "Name": "Motdrahcir",
-    "Flag": ":flag_us:",
-    "SWGOH": "<https://swgoh.gg/p/186597995/>",
-    "UTC": "04:30"
-  },
-  {
     "Name": "Casseus Amell",
     "Flag": ":flag_us:",
     "SWGOH": "<https://swgoh.gg/p/714317725/>",
@@ -171,6 +165,12 @@
     "Name": "Iffcians",
     "Flag": ":flag_pl:",
     "SWGOH": "<https://swgoh.gg/p/247791558/>",
+    "UTC": "21:00"
+  },
+  {
+    "Name": "Motdrahcir",
+    "Flag": ":flag_us:",
+    "SWGOH": "<https://swgoh.gg/p/186597995/>",
     "UTC": "21:00"
   },
   {
