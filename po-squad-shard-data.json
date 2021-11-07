@@ -36,16 +36,16 @@
     "UTC": "07:00"
   },
   {
+    "Name": "Templario",
+    "Flag": ":flag_es:",
+    "SWGOH": "<https://swgoh.gg/p/471294846/>",
+    "UTC": "07:30"
+  },
+  {
     "Name": "Ehtan",
     "Flag": ":flag_jp:",
     "SWGOH": "<https://swgoh.gg/p/839721142/>",
     "UTC": "09:00"
-  },
-  {
-    "Name": "Templario",
-    "Flag": ":flag_es:",
-    "SWGOH": "<https://swgoh.gg/p/471294846/>",
-    "UTC": "10:00"
   },
   {
     "Name": "Creator",
