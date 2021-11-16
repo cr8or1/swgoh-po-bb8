@@ -6,12 +6,6 @@
     "UTC": "00:00"
   },
   {
-    "Name": "Chalbran Leone",
-    "Flag": ":flag_ca:",
-    "SWGOH": "<https://swgoh.gg/p/936893352/>",
-    "UTC": "02:00"
-  },
-  {
     "Name": "Storm",
     "Flag": ":flag_us:",
     "SWGOH": "<https://swgoh.gg/p/817314654/>",
@@ -46,6 +40,12 @@
     "Flag": ":flag_jp:",
     "SWGOH": "<https://swgoh.gg/p/839721142/>",
     "UTC": "09:00"
+  },
+  {
+    "Name": "hank.ulator",
+    "Flag": ":flag_ca:",
+    "SWGOH": "<https://swgoh.gg/p/936893352/>",
+    "UTC": "11:00"
   },
   {
     "Name": "Creator",
