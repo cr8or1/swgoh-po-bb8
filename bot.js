@@ -1,10 +1,11 @@
 // Init project
 const http = require('http');
-const express = require('express');
+// const express = require('express');
+const { exec } = require('child_process');
 const Discord = require("discord.js");
 const fs = require("fs");
 
-const app = express();
+// const app = express();
 const client = new Discord.Client();
 
 // Channel discord id 1 (squad arena)
@@ -25,15 +26,29 @@ const matesSquadPestData = parseData(JSON.parse(fs.readFileSync("./po-squad-pest
 const matesFleetPestData = parseData(JSON.parse(fs.readFileSync("./po-fleet-pest-data.json", "utf8")));
 
 // Keeping the project "alive"
-app.get("/", (request, response) => {
-    console.log(new Date().toISOString().replace("T", " ").substring(0, 19) + " Ping Received");
-    main().catch(ex => console.error(ex.message));
-    response.sendStatus(200);
-});
+// app.get("/", (request, response) => {
+//     console.log(new Date().toISOString().replace("T", " ").substring(0, 19) + " Ping Received");
+//     main().catch(ex => console.error(ex.message));
+//     response.sendStatus(200);
+// });
 // app.listen(process.env.PORT || 8000);
-setInterval(() => {
-    http.get(process.env.url);
-}, process.env.timePeriod);
+// setInterval(() => {
+//     http.get(process.env.url);
+// }, process.env.timePeriod);
+
+setInterval(function() {
+	exec('sudo systemctl restart docker', (error, stdout, stderr) => {
+		if (error) {
+			console.error(`Error: ${error.message}`);
+			return;
+		}
+		if (stderr) {
+			console.error(`stderr: ${stderr}`);
+			return;
+		}
+		console.log(`stdout: ${stdout}`);
+	});
+}, process.env.timePeriod); // 10 minutes in milliseconds
 
 // Initialize the bot
 client.on("ready", async () => {
@@ -48,8 +63,8 @@ client.on("ready", async () => {
 });
 client.login(process.env.botToken);
 
-console.log("App restarted");
-// console.log(process.env.url);
+console.log("App restarted version 1.0.0");
+console.log(process.env.url);
 
 async function main() {
     if (!messageSquadShard) {
