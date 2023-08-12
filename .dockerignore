@@ -1,4 +1,5 @@
 .gitignore
 .git
+local.env
 node_modules
 README.md
