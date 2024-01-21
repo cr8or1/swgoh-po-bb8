@@ -6,6 +6,12 @@
     "UTC": "00:00"
   },
   {
+    "Name": "Aptom",
+    "Flag": ":flag_us:",
+    "SWGOH": "<https://swgoh.gg/p/186597995/>",
+    "UTC": "00:00"
+  },
+  {
     "Name": "Shadraq",
     "Flag": ":flag_us:",
     "SWGOH": "<https://swgoh.gg/p/579663853/>",
@@ -100,12 +106,6 @@
     "Flag": ":flag_de:",
     "SWGOH": "<https://swgoh.gg/p/615758379/>",
     "UTC": "20:00"
-  },
-  {
-    "Name": "Aptom",
-    "Flag": ":flag_us:",
-    "SWGOH": "<https://swgoh.gg/p/186597995/>",
-    "UTC": "21:00"
   },
   {
     "Name": "Fin Mufmo",
