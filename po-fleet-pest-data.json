@@ -24,6 +24,12 @@
     "UTC": "00:00"
   },
   {
+    "Name": "Barlovento",
+    "Flag": ":flag_cl:",
+    "SWGOH": "<https://swgoh.gg/p/265498841/>",
+    "UTC": "00:00"
+  },
+  {
     "Name": "CH",
     "Flag": ":poop:",
     "SWGOH": "<https://swgoh.gg/p/338732361/>",
@@ -102,6 +108,12 @@
     "UTC": "07:00"
   },
   {
+    "Name": "Falconaire",
+    "Flag": ":flag_ph:",
+    "SWGOH": "<https://swgoh.gg/p/132123157/>",
+    "UTC": "08:00"
+  },
+  {
     "Name": "jaggene",
     "Flag": ":flag_mk:",
     "SWGOH": "<https://swgoh.gg/p/468671494/>",
@@ -111,6 +123,12 @@
     "Name": "Wsummerspring",
     "Flag": ":poop:",
     "SWGOH": "<https://swgoh.gg/p/594122685/>",
+    "UTC": "10:00"
+  },
+  {
+    "Name": "NSC Linus Bandouliere",
+    "Flag": ":flag_kr:",
+    "SWGOH": "<https://swgoh.gg/p/676378194/>",
     "UTC": "10:00"
   },
   {

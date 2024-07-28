@@ -1,11 +1,5 @@
 [
   {
-    "Name": "Barlovento",
-    "Flag": ":flag_cl:",
-    "SWGOH": "<https://swgoh.gg/p/265498841/>",
-    "UTC": "00:00"
-  },
-  {
     "Name": "Aptom",
     "Flag": ":flag_us:",
     "SWGOH": "<https://swgoh.gg/p/186597995/>",
@@ -52,18 +46,6 @@
     "Flag": ":flag_us:",
     "SWGOH": "<https://swgoh.gg/p/281171773/>",
     "UTC": "08:00"
-  },
-  {
-    "Name": "Falconaire",
-    "Flag": ":flag_ph:",
-    "SWGOH": "<https://swgoh.gg/p/132123157/>",
-    "UTC": "08:00"
-  },
-  {
-    "Name": "NSC Linus Bandouliere",
-    "Flag": ":flag_kr:",
-    "SWGOH": "<https://swgoh.gg/p/676378194/>",
-    "UTC": "10:00"
   },
   {
     "Name": "Creator",
