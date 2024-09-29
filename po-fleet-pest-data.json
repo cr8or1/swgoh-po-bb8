@@ -168,15 +168,15 @@
     "UTC": "13:00"
   },
   {
-    "Name": "Firewalker",
-    "Flag": ":poop:",
-    "SWGOH": "<https://swgoh.gg/p/178496636/>",
-    "UTC": "13:00"
-  },
-  {
     "Name": "Edrard",
     "Flag": ":poop:",
     "SWGOH": "<https://swgoh.gg/p/437378547/>",
+    "UTC": "13:00"
+  },
+  {
+    "Name": "JaxMaxDaddy",
+    "Flag": ":poop:",
+    "SWGOH": "<https://swgoh.gg/p/177896731/>",
     "UTC": "13:00"
   },
   {
@@ -378,12 +378,6 @@
     "UTC": "19:00"
   },
   {
-    "Name": "Redeemer",
-    "Flag": ":poop:",
-    "SWGOH": "<https://swgoh.gg/p/177896731/>",
-    "UTC": "19:00"
-  },
-  {
     "Name": "Meichin",
     "Flag": ":poop:",
     "SWGOH": "<https://swgoh.gg/p/779672588/>",
@@ -465,6 +459,12 @@
     "Name": "Jir'vin Antobal",
     "Flag": ":poop:",
     "SWGOH": "<https://swgoh.gg/p/827611334/>",
+    "UTC": "22:00"
+  },
+  {
+    "Name": "Fin Mufmo",
+    "Flag": ":flag_us:",
+    "SWGOH": "<https://swgoh.gg/p/146532592/>",
     "UTC": "22:00"
   },
   {

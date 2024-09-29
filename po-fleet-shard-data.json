@@ -6,12 +6,6 @@
     "UTC": "00:00"
   },
   {
-    "Name": "Overeem",
-    "Flag": ":flag_us:",
-    "SWGOH": "<https://swgoh.gg/p/555754642/>",
-    "UTC": "00:00"
-  },
-  {
     "Name": "GålåÐrïêL",
     "Flag": ":flag_es:",
     "SWGOH": "<https://swgoh.gg/p/513661861/>",
@@ -45,7 +39,7 @@
     "Name": "Oberon Calad",
     "Flag": ":flag_us:",
     "SWGOH": "<https://swgoh.gg/p/281171773/>",
-    "UTC": "08:00"
+    "UTC": "05:00"
   },
   {
     "Name": "Creator",
@@ -102,9 +96,15 @@
     "UTC": "20:00"
   },
   {
-    "Name": "Fin Mufmo",
+    "Name": "Firewalker",
+    "Flag": ":flag_at:",
+    "SWGOH": "<https://swgoh.gg/p/178496636/>",
+    "UTC": "20:00"
+  },
+  {
+    "Name": "Overeem",
     "Flag": ":flag_us:",
-    "SWGOH": "<https://swgoh.gg/p/146532592/>",
+    "SWGOH": "<https://swgoh.gg/p/555754642/>",
     "UTC": "22:00"
   },
   {
