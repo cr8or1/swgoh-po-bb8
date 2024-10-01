@@ -30,6 +30,12 @@
     "UTC": "03:00"
   },
   {
+    "Name": "Andrus (Barlovento)",
+    "Flag": ":flag_cl:",
+    "SWGOH": "<https://swgoh.gg/p/265498841/>",
+    "UTC": "03:00"
+  },
+  {
     "Name": "Casseus Amell",
     "Flag": ":flag_us:",
     "SWGOH": "<https://swgoh.gg/p/714317725/>",
@@ -40,12 +46,6 @@
     "Flag": ":flag_us:",
     "SWGOH": "<https://swgoh.gg/p/281171773/>",
     "UTC": "05:00"
-  },
-  {
-    "Name": "Andrus (Barlovento)",
-    "Flag": ":flag_cl:",
-    "SWGOH": "<https://swgoh.gg/p/265498841/>",
-    "UTC": "06:00"
   },
   {
     "Name": "Creator",
