@@ -18,18 +18,6 @@
     "UTC": "02:00"
   },
   {
-    "Name": "Nikki Dial",
-    "Flag": ":flag_us:",
-    "SWGOH": "<https://swgoh.gg/p/535357851/>",
-    "UTC": "03:00"
-  },
-  {
-    "Name": "Andrus (Barlovento)",
-    "Flag": ":flag_cl:",
-    "SWGOH": "<https://swgoh.gg/p/265498841/>",
-    "UTC": "03:00"
-  },
-  {
     "Name": "Casseus Amell",
     "Flag": ":flag_us:",
     "SWGOH": "<https://swgoh.gg/p/714317725/>",
@@ -117,12 +105,6 @@
     "Name": "Bacterio",
     "Flag": ":flag_eu:",
     "SWGOH": "<https://swgoh.gg/p/139682535/>",
-    "UTC": "23:00"
-  },
-  {
-    "Name": "Scruffy Nerf herder",
-    "Flag": ":flag_us:",
-    "SWGOH": "<https://swgoh.gg/p/957153242/>",
     "UTC": "23:00"
   }
 ]

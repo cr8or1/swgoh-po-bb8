@@ -96,6 +96,18 @@
     "UTC": "02:00"
   },
   {
+    "Name": "Andrus (Barlovento)",
+    "Flag": ":flag_cl:",
+    "SWGOH": "<https://swgoh.gg/p/265498841/>",
+    "UTC": "03:00"
+  },
+  {
+    "Name": "Nikki Dial",
+    "Flag": ":flag_us:",
+    "SWGOH": "<https://swgoh.gg/p/535357851/>",
+    "UTC": "03:00"
+  },
+  {
     "Name": "Misa",
     "Flag": ":flag_us:",
     "SWGOH": "<https://swgoh.gg/p/379278527/>",
@@ -555,6 +567,12 @@
     "Name": "Bill0207",
     "Flag": ":poop:",
     "SWGOH": "<https://swgoh.gg/p/486611461/>",
+    "UTC": "23:00"
+  },
+  {
+    "Name": "Scruffy Nerf herder",
+    "Flag": ":flag_us:",
+    "SWGOH": "<https://swgoh.gg/p/957153242/>",
     "UTC": "23:00"
   }
 ]
