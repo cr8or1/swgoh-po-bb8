@@ -138,58 +138,16 @@
     "UTC": "09:00"
   },
   {
-    "Name": "jaggene",
-    "Flag": ":flag_mk:",
-    "SWGOH": "<https://swgoh.gg/p/468671494/>",
-    "UTC": "09:30"
-  },
-  {
-    "Name": "Wsummerspring",
-    "Flag": ":poop:",
-    "SWGOH": "<https://swgoh.gg/p/594122685/>",
-    "UTC": "10:00"
-  },
-  {
-    "Name": "NSC Linus Bandouliere",
-    "Flag": ":flag_kr:",
-    "SWGOH": "<https://swgoh.gg/p/676378194/>",
-    "UTC": "10:00"
-  },
-  {
     "Name": "Kuva",
     "Flag": ":poop:",
     "SWGOH": "<https://swgoh.gg/p/312673618/>",
     "UTC": "11:00"
   },
   {
-    "Name": "Windypeak",
-    "Flag": ":poop:",
-    "SWGOH": "<https://swgoh.gg/p/513812779/>",
-    "UTC": "11:00"
-  },
-  {
-    "Name": "AfrikaBambaata",
-    "Flag": ":flag_ru:",
-    "SWGOH": "<https://swgoh.gg/p/791749373/>",
-    "UTC": "11:00"
-  },
-  {
-    "Name": "DarthQuiGonJeff",
-    "Flag": ":poop:",
-    "SWGOH": "<https://swgoh.gg/p/873677476/>",
-    "UTC": "12:00"
-  },
-  {
     "Name": "Papaism",
     "Flag": ":poop:",
     "SWGOH": "<https://swgoh.gg/p/785215442/>",
     "UTC": "12:00"
-  },
-  {
-    "Name": "Kagan",
-    "Flag": ":poop:",
-    "SWGOH": "<https://swgoh.gg/p/719666592/>",
-    "UTC": "13:00"
   },
   {
     "Name": "Edrard",
@@ -210,21 +168,9 @@
     "UTC": "14:00"
   },
   {
-    "Name": "Mol Eliza",
-    "Flag": ":poop:",
-    "SWGOH": "<https://swgoh.gg/p/435298834/>",
-    "UTC": "15:00"
-  },
-  {
     "Name": "MINI Ghul",
     "Flag": ":poop:",
     "SWGOH": "<https://swgoh.gg/p/795732257/>",
-    "UTC": "15:00"
-  },
-  {
-    "Name": "mort",
-    "Flag": ":poop:",
-    "SWGOH": "<https://swgoh.gg/p/925892151/>",
     "UTC": "15:00"
   },
   {
@@ -246,34 +192,10 @@
     "UTC": "15:00"
   },
   {
-    "Name": "Mol Eliza",
-    "Flag": ":poop:",
-    "SWGOH": "<https://swgoh.gg/p/435298834/>",
-    "UTC": "15:00"
-  },
-  {
-    "Name": "Mart starblaster",
-    "Flag": ":poop:",
-    "SWGOH": "<https://swgoh.gg/p/132342853/>",
-    "UTC": "16:00"
-  },
-  {
     "Name": "Aptom (sioloena)",
     "Flag": ":flag_sg:",
     "SWGOH": "<https://swgoh.gg/p/186597995/>",
     "UTC": "14:00"
-  },
-  {
-    "Name": "Daft Serious",
-    "Flag": ":poop:",
-    "SWGOH": "<https://swgoh.gg/p/829252159/>",
-    "UTC": "16:00"
-  },
-  {
-    "Name": "Baralai",
-    "Flag": ":poop:",
-    "SWGOH": "<https://swgoh.gg/p/183779699/>",
-    "UTC": "16:00"
   },
   {
     "Name": "Comradeg",
@@ -288,27 +210,9 @@
     "UTC": "16:00"
   },
   {
-    "Name": "Моандор",
-    "Flag": ":poop:",
-    "SWGOH": "<https://swgoh.gg/p/392758688/>",
-    "UTC": "16:00"
-  },
-  {
-    "Name": "kotkas",
-    "Flag": ":poop:",
-    "SWGOH": "<https://swgoh.gg/p/914496674/>",
-    "UTC": "16:00"
-  },
-  {
     "Name": "ObiKenobi",
     "Flag": ":poop:",
     "SWGOH": "<https://swgoh.gg/p/285346573/>",
-    "UTC": "16:00"
-  },
-  {
-    "Name": "DarthSephroth",
-    "Flag": ":poop:",
-    "SWGOH": "<https://swgoh.gg/p/326249946/>",
     "UTC": "16:00"
   },
   {
@@ -318,45 +222,9 @@
     "UTC": "16:00"
   },
   {
-    "Name": "Kobe",
-    "Flag": ":poop:",
-    "SWGOH": "<https://swgoh.gg/p/972144911/>",
-    "UTC": "17:00"
-  },
-  {
     "Name": "Zockerman84",
     "Flag": ":poop:",
     "SWGOH": "<https://swgoh.gg/p/159295296/>",
-    "UTC": "17:00"
-  },
-  {
-    "Name": "Bola-bola",
-    "Flag": ":flag_ch:",
-    "SWGOH": "<https://swgoh.gg/p/988543679/>",
-    "UTC": "17:00"
-  },
-  {
-    "Name": "Poposky",
-    "Flag": ":flag_fr:",
-    "SWGOH": "<https://swgoh.gg/p/759198451/>",
-    "UTC": "17:00"
-  },
-  {
-    "Name": "Thraken Vih'Torr",
-    "Flag": ":flag_de:",
-    "SWGOH": "<https://swgoh.gg/p/268371833/>",
-    "UTC": "17:00"
-  },
-  {
-    "Name": "1HansYolo",
-    "Flag": ":flag_de:",
-    "SWGOH": "<https://swgoh.gg/p/289263299/>",
-    "UTC": "17:00"
-  },
-  {
-    "Name": "Paltfest",
-    "Flag": ":poop:",
-    "SWGOH": "<https://swgoh.gg/p/773756496/>",
     "UTC": "17:00"
   },
   {
@@ -402,18 +270,6 @@
     "UTC": "17:00"
   },
   {
-    "Name": "Amoreux 1412",
-    "Flag": ":poop:",
-    "SWGOH": "<https://swgoh.gg/p/158795962/>",
-    "UTC": "17:00"
-  },
-  {
-    "Name": "Taz",
-    "Flag": ":poop:",
-    "SWGOH": "<https://swgoh.gg/p/439367479/>",
-    "UTC": "18:00"
-  },
-  {
     "Name": "Ringer99",
     "Flag": ":poop:",
     "SWGOH": "<https://swgoh.gg/p/452161542/>",
@@ -432,22 +288,10 @@
     "UTC": "19:00"
   },
   {
-    "Name": "Meichin",
-    "Flag": ":poop:",
-    "SWGOH": "<https://swgoh.gg/p/779672588/>",
-    "UTC": "20:00"
-  },
-  {
     "Name": "Deren",
     "Flag": ":poop:",
     "SWGOH": "<https://swgoh.gg/p/857856842/>",
     "UTC": "20:00"
-  },
-  {
-    "Name": "Dakhir",
-    "Flag": ":poop:",
-    "SWGOH": "<https://swgoh.gg/p/189933556/>",
-    "UTC": "21:00"
   },
   {
     "Name": "Yinchorr",
@@ -468,39 +312,9 @@
     "UTC": "21:00"
   },
   {
-    "Name": "Iffcians",
-    "Flag": ":flag_us:",
-    "SWGOH": "<https://swgoh.gg/p/247791558/>",
-    "UTC": "21:00"
-  },
-  {
-    "Name": "Fulas",
-    "Flag": ":poop:",
-    "SWGOH": "<https://swgoh.gg/p/792492889/>",
-    "UTC": "22:00"
-  },
-  {
     "Name": "Ewokin Sanguinolento",
     "Flag": ":poop:",
     "SWGOH": "<https://swgoh.gg/p/753352212/>",
-    "UTC": "22:00"
-  },
-  {
-    "Name": "Usul Muad'Dib",
-    "Flag": ":poop:",
-    "SWGOH": "<https://swgoh.gg/p/437174866/>",
-    "UTC": "22:00"
-  },
-  {
-    "Name": "Nuggetjedi",
-    "Flag": ":poop:",
-    "SWGOH": "<https://swgoh.gg/p/748336458/>",
-    "UTC": "22:00"
-  },
-  {
-    "Name": "F R E D",
-    "Flag": ":poop:",
-    "SWGOH": "<https://swgoh.gg/p/989354476/>",
     "UTC": "22:00"
   },
   {
@@ -522,57 +336,9 @@
     "UTC": "22:00"
   },
   {
-    "Name": "Jir'vin Antobal",
-    "Flag": ":poop:",
-    "SWGOH": "<https://swgoh.gg/p/827611334/>",
-    "UTC": "22:00"
-  },
-  {
-    "Name": "Fin Mufmo",
-    "Flag": ":flag_us:",
-    "SWGOH": "<https://swgoh.gg/p/146532592/>",
-    "UTC": "22:00"
-  },
-  {
     "Name": "Groove",
     "Flag": ":poop:",
     "SWGOH": "<https://swgoh.gg/p/481362826/>",
-    "UTC": "23:00"
-  },
-  {
-    "Name": "Tarheelblue",
-    "Flag": ":poop:",
-    "SWGOH": "<https://swgoh.gg/p/756757295/>",
-    "UTC": "23:00"
-  },
-  {
-    "Name": "Ness",
-    "Flag": ":poop:",
-    "SWGOH": "<https://swgoh.gg/p/524734725/>",
-    "UTC": "23:00"
-  },
-  {
-    "Name": "Philly",
-    "Flag": ":poop:",
-    "SWGOH": "<https://swgoh.gg/p/579283189/>",
-    "UTC": "23:00"
-  },
-  {
-    "Name": "Tasselhoff",
-    "Flag": ":poop:",
-    "SWGOH": "<https://swgoh.gg/p/975148554/>",
-    "UTC": "23:00"
-  },
-  {
-    "Name": "YendorRellim",
-    "Flag": ":flag_us:",
-    "SWGOH": "<https://swgoh.gg/p/474749823/>",
-    "UTC": "23:00"
-  },
-  {
-    "Name": "Goooch",
-    "Flag": ":poop:",
-    "SWGOH": "<https://swgoh.gg/p/988699184/>",
     "UTC": "23:00"
   },
   {
