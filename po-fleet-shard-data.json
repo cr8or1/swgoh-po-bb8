@@ -36,6 +36,18 @@
     "UTC": "05:00"
   },
   {
+    "Name": "LordStarkiller",
+    "Flag": ":flag_de:",
+    "SWGOH": "<https://swgoh.gg/p/615758379/>",
+    "UTC": "08:00"
+  },
+  {
+    "Name": "Nevols",
+    "Flag": ":flag_gb:",
+    "SWGOH": "<https://swgoh.gg/p/344281434/>",
+    "UTC": "09:00"
+  },
+  {
     "Name": "Creator",
     "Flag": ":flag_ro:",
     "SWGOH": "<https://swgoh.gg/p/122235729/>",
@@ -66,12 +78,6 @@
     "UTC": "17:00"
   },
   {
-    "Name": "Nevols",
-    "Flag": ":flag_gb:",
-    "SWGOH": "<https://swgoh.gg/p/344281434/>",
-    "UTC": "17:00"
-  },
-  {
     "Name": "Kliment B",
     "Flag": ":flag_mk:",
     "SWGOH": "<https://swgoh.gg/p/917816977/>",
@@ -88,12 +94,6 @@
     "Flag": ":flag_cr:",
     "SWGOH": "<https://swgoh.gg/p/477893212/>",
     "UTC": "19:00"
-  },
-  {
-    "Name": "LordStarkiller",
-    "Flag": ":flag_de:",
-    "SWGOH": "<https://swgoh.gg/p/615758379/>",
-    "UTC": "08:00"
   },
   {
     "Name": "Firewalker",
