@@ -42,12 +42,6 @@
     "UTC": "08:00"
   },
   {
-    "Name": "Nevols",
-    "Flag": ":flag_gb:",
-    "SWGOH": "<https://swgoh.gg/p/344281434/>",
-    "UTC": "09:00"
-  },
-  {
     "Name": "Creator",
     "Flag": ":flag_ro:",
     "SWGOH": "<https://swgoh.gg/p/122235729/>",
@@ -100,6 +94,12 @@
     "Flag": ":flag_at:",
     "SWGOH": "<https://swgoh.gg/p/178496636/>",
     "UTC": "20:00"
+  },
+  {
+    "Name": "Nevols",
+    "Flag": ":flag_gb:",
+    "SWGOH": "<https://swgoh.gg/p/344281434/>",
+    "UTC": "21:00"
   },
   {
     "Name": "Flamengo",
