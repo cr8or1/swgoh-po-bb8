@@ -126,8 +126,14 @@
     "UTC": "23:00"
   },
   {
+    "Name": "Hippo",
+    "Flag": ":flag_us:",
+    "SWGOH": "<https://swgoh.gg/p/548669863/>",
+    "UTC": "22:00"
+  },
+  {
     "Name": "Bacterio",
-    "Flag": ":flag_eu:",
+    "Flag": ":flag_us:",
     "SWGOH": "<https://swgoh.gg/p/139682535/>",
     "UTC": "23:00"
   }
